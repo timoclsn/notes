@@ -1,0 +1,4 @@
+- Vereinsmitgliedschaft
+	- Zum Ende des Kalenderjahrs bis spät. 30.09
+- Bewegungswelt
+	- zum Schuljahresende bis spät. 31.07

@@ -1,0 +1,1 @@
+npm -g install @antfu/ni npm-check-updates pnpm yarn@1.22.22
