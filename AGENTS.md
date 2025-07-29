@@ -1,31 +1,32 @@
-# Agent Guidelines for Obsidian Notes Repository
+# AGENTS.md - AI Agent Guidelines
 
-## Project Type
-This is an Obsidian notes vault containing personal documentation, daily notes, and project notes.
+## Repository Type
+This is an Obsidian notes repository containing markdown files (.md) with personal notes and documentation.
 
-## Build/Test Commands
-No build system - this is a markdown-based notes repository. No tests to run.
-
-## File Structure
-- `Daily/` - Daily notes in YYYY-MM-DD.md format
-- `Personal/` - Personal notes and documentation
-- `Work/` - Work-related notes and project documentation
+## Commands
+No build/lint/test commands - this is a markdown-only repository.
 
 ## Code Style Guidelines
-- Use markdown format for all notes
-- Follow German language for work notes, English for technical documentation
-- Use bullet points for lists (- instead of *)
-- Keep file names descriptive and use kebab-case for multi-word files
-- Use relative links for internal note references
+- **File Format**: All files are markdown (.md)
+- **Naming**: Use kebab-case for filenames (e.g., `my-note.md`)
+- **Date Format**: Use YYYY-MM-DD format for daily notes
+- **Structure**: Keep notes organized with clear headings and bullet points
+- **No Code**: This repository contains documentation only, no executable code
 
-## Vim Configuration
-- Uses Obsidian Vim plugin with custom .obsidian.vimrc
-- jj mapped to escape in insert mode
-- H/L for beginning/end of line navigation
-- System clipboard integration enabled
+## Tagging System
+- **Required**: Every note must start with tags on the first line
+- **Format**: Use hashtag format: `#tag1 #tag2 #tag3`
+- **Categories**: Common tag patterns include:
+  - Context: `#work`, `#personal`, `#daily`
+  - Projects: `#steuerbot`, `#codeatelier`, `#lcd-net`
+  - Technology: `#app`, `#neovim`, `#programming`, `#obsidian`
+  - Domain: `#macos`, `#dns`, `#troubleshooting`, `#kindergarten`
+- **Lowercase**: All tags use lowercase letters
+- **Multiple Tags**: Use space-separated tags for multiple categories
 
-## Best Practices
-- Maintain consistent date formatting (YYYY-MM-DD) for daily notes
-- Organize notes by category (Personal, Work, Daily)
-- Use descriptive titles and maintain clear folder structure
-- Keep notes focused and well-organized for easy retrieval
+## Notes Organization
+- Daily notes follow YYYY-MM-DD.md format
+- Topic-based notes use descriptive names
+- No subdirectories - all files in root directory
+- Use markdown formatting consistently
+
