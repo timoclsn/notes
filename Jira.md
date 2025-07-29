@@ -1,0 +1,4 @@
+#work #steuerbot 
+
+- GitLab Integration einrichten
+- Issue Feld "Marketing" - analog zu "Support" (Ggfs. nicht nur immer neue Custom Felder sondern Labels lösen?)

@@ -1,6 +1,0 @@
-- Natives LSP Folding und weg von Plugin mit 0.11 ✅
-- Error Position anpassen mit 0.11 ❌
-- Ggfs. Telescope durch Snacks.Picker tauschen
-- Auf native LSP Config umsteigen
-- Auf blink als Comp Plugin umsteigen ✅
-- other.nvim einrichten

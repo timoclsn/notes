@@ -1,0 +1,21 @@
+#personal #neovim 
+
+- init.lua
+- snippets
+- lua
+	- options
+	- keymaps
+	- health
+	- plugins
+		- ai
+		- colorscheme
+		- git
+		- lsp
+		- format
+		- completion
+		- theme
+		- treesitter
+		- files
+		- lint
+		- telescope
+		- utils
